@@ -1,6 +1,6 @@
 package com.capg.emppayrolljdbc;
-import java.time.LocalDate;
 
+import java.time.LocalDate;
 
 public class EmployeePayrollData {
 	private int emp_id;
@@ -15,6 +15,14 @@ public class EmployeePayrollData {
 		this.name = name;
 		this.salary = salary;
 		this.start_date = start;
+	}
+	
+	public EmployeePayrollData(String name,String gender, double salary, LocalDate start) {
+		super();
+		this.name = name;
+		this.salary = salary;
+		this.start_date = start;
+		this.gender = gender;
 	}
 
 	public EmployeePayrollData(int id, String name, String gender, double salary, LocalDate start) {
