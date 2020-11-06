@@ -7,7 +7,7 @@ public class PayrollService {
 
 	public static final String URL = "jdbc:mysql://localhost:3306/payroll_service?useSSL=false";
 	public static final String USER = "root";
-	public static final String PASSWORD = "Lakshmi@99";
+	public static final String PASSWORD = "";
 
 	public static void main(String[] args) {
 		Connection connection;
